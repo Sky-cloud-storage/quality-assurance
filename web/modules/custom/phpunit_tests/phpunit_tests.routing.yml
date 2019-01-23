@@ -1,0 +1,8 @@
+php_unit_tests.form_admin:
+  path: '/contact_form'
+  defaults:
+    _title: 'Contact form settings'
+    _form: 'Drupal\phpunit_tests\Form\ContactUsForm'
+  requirements:
+    _permission: 'access content'
+

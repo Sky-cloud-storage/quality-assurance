@@ -1,0 +1,5 @@
+name: PhPUnit tests
+type: module
+description: Basic testing example.
+core: 8.x
+package: Unit tests

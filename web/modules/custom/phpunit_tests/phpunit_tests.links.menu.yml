@@ -1,0 +1,7 @@
+php_unit_tests.form_admin:
+  title: "Form testing"
+  description: "Display form to test."
+  menu_name: admin
+  parent: system.admin
+  route_name: php_unit_tests.form_admin
+  weight: 11

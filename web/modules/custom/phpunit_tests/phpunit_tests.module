@@ -1,0 +1,20 @@
+<?php
+/**
+ * @file
+ * Contains phpunit_tests.module.
+ */
+
+use Drupal\Core\Form\FormStateInterface;
+
+/**
+ * Implements hook_form_alter().
+ */
+function phpunit_tests_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+  if ($form_id == 'contact_us') {
+    $form['#submit'][] = 'CustomSubmit';
+  }
+}
+
+function CustomSubmit(&$form, FormStateInterface $form_state) {
+
+}
